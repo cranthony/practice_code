@@ -1,0 +1,9 @@
+A - - "GET /path/to/file.gif HTTP/1.0" 1 200
+A - - "GET /path/to/ HTTP/1.0" 1 200
+A - - "GET /path/to/another_file.gif HTTP/1.0" 1 200
+A - - "GET /path/to/file.gif HTTP/1.0" 1 200
+A - - "GET /path/to/an_ignored_file.gif HTTP/1.0" 1 404
+A - - "GET /path/to/file.jpg HTTP/1.0" 1 200
+A - - "GET /path/to/file.jpg HTTP/1.0" 1 200
+A - - "GET /path/to/another/file.gif HTTP/1.0" 1 200
+A - - "GET /path/to/file.gif HTTP/1.0" 1 200
